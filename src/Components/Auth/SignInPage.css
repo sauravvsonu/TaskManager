@@ -1,34 +1,34 @@
 .loginBody{
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-items: center;
+    background-color: #537895 !important;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%) !important;
+    height: 100vh !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-items: center !important;
 }
 
 .formBox{
-    height: 60%;
-    width: 40%;
+    height: 60% !important;
+    width: 40% !important;
 }
 
 .loginText{
-    color: white;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 40px;
-    margin-bottom: 60px;
+    color: white !important;
+    font-weight: bold !important;
+    font-family: monospace !important;
+    font-size: 40px !important;
+    margin-bottom: 60px !important;
 }
 .formButton{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-top: 30px !important;
 }
 
 .validate{
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
+    color: white !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
 }

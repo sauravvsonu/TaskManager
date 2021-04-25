@@ -1,26 +1,18 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
 import Dashboard from "./Components/Dashboard";
-import SignInPage from "./Components/Auth/SignInPage";
-import SignUpPage from "./Components/Auth/SignUpPage";
-import CreateTask from './Components/Task/CreateTask';
-import AddTaskManager from './Components/Task/AddTaskManager';
+import { Component } from 'react';
+import Login from './Components/Auth/Login';
+import LoginDashboad from "./Components/Auth/LoginDashboad";
+import SignupDashboard from "./Components/Auth/SignupDashboard";
 
+export class App extends Component {
 
-function App() {
-  return (
-    <BrowserRouter>
-    <div className="App">
-     <Switch>
-       <Route path='/' exact component={Dashboard} />
-       <Route path='/signin' component={SignInPage} />
-       <Route path='/signup' component={SignUpPage} />
-       <Route path='/createtask' component={CreateTask} />
-       <Route path='/addtaskmanager' component={AddTaskManager} />
-     </Switch>  
-    </div>
-    </BrowserRouter>
-   
-  );
+  render() {
+    return (
+      <LoginDashboad />
+    )
+  }
 }
+
 
 export default App;
